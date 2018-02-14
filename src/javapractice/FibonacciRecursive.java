@@ -1,5 +1,10 @@
 package javapractice;
 
+/**
+ * Contains methds responsible for printing out the fibonnaci series
+ * @author kieranmcerlean
+ *
+ */
 public class FibonacciRecursive {
 
 	public static void main(String[] args) {
@@ -11,6 +16,11 @@ public class FibonacciRecursive {
 		}
 	}
 	
+	/**
+	 * calculates and returns the fibonacci series
+	 * @param n - an <code>integer</code> specifying the value of n, the length of the series
+	 * @return 
+	 */
 	public int fiboRecursive(int n) {
 		
 		if(n == 0) {
