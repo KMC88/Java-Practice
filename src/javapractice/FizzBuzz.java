@@ -1,6 +1,5 @@
 package javapractice;
 
-import java.util.Scanner;
 
 /**
  * Runs through the game FizzBuzz
